@@ -1,0 +1,3 @@
+curl -XGET ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}/_cluster/settings
+
+curl -XGET ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}/_nodes/${NODE_ID}/settings
